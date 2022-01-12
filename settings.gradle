@@ -1,0 +1,31 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "AR-Project01"
+include ':app'
+
+/*
+// Add these lines:
+include ':sceneform'
+project(':sceneform').projectDir=new File('sceneformsrc/sceneform')
+
+include ':sceneformux'
+project(':sceneformux').projectDir=new File('sceneformux/ux')*/
+/*
+sceneform.asset('sampledata/models/mario_hat.fbx',
+        'default',
+        'sampledata/models/mario_hat.sfa',
+        'src/main/assets/mario_hat')
+
+sceneform.asset('sampledata/models/mario.fbx',
+        'default',
+        'sampledata/models/mario.sfa',
+        'src/main/assets/mario')
+
+
+ */
